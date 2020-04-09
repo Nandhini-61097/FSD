@@ -1,0 +1,38 @@
+3. Usage of 'Use Script' in JS:
+
+1.It indicate that the code should be executed in " Strict Mode".
+2.Strict Mode is declared by adding " Use Strict"; to the beginning of a script or a function.
+3.Declaring at the beginning of the script, it has global scope.
+4.Using a Variable and object without declaring it, it is not allowed in Use Strict.
+5.Deleting a variable, object or Function is not allowed in Strict mode.
+6.Duplicating a parameter is also not allowed.
+
+
+
+4. "NOSCRIPT TAG"
+
+1.The Noscript tag can be used in both <head> and <body> tags.
+2.The <noscript> tag defines alternate content for users that have disabled scripts in their browser or have a browser that doesnot support script.
+3.When used inside the <head> element - <noscript> must contain only <link>,<style>, and <meta> elements.
+4.The content inside the <noscript> element will be displayed if scripts are not supported, or disabled in the user's browser.
+
+
+
+6. check for infinity & nan using type of – task
+        var s=3/0; type = "number"
+        var f=Nan? type = "number"
+		
+		
+8. Function Expression
+
+	Function is declared by using the function statement. A declared function is used for later use, when the function call invoked. 
+Return statement is used to return the value of that function.
+	
+	Example:
+	FunctionName( Parameters) {
+	// Code of Logic;
+	}
+	
+	function sum(int a = 5, int b = 5) {
+	return a * b;
+	}
