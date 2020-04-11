@@ -1,0 +1,19 @@
+
+<html>
+<body>
+<script>
+let Sample = function() {
+ this.a = 3;
+ this.b = 5;
+}
+let object = new Sample();
+
+Sample.prototype.b = 8;
+Sample.prototype.c = 10;
+console.log(object.a);
+console.log(object.b);
+console.log(object.c);
+console.log(object.d);
+</script>
+</body>
+</html>
