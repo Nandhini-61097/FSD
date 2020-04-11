@@ -36,3 +36,6 @@ Return statement is used to return the value of that function.
 	function sum(int a = 5, int b = 5) {
 	return a * b;
 	}
+
+
+7. Comparison based on the albhabetical position
